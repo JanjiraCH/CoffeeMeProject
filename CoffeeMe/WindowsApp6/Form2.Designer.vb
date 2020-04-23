@@ -56,6 +56,7 @@ Partial Class Form2
         Me.TextBox3.Font = New System.Drawing.Font("PSL AsadongSP", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.TextBox3.Location = New System.Drawing.Point(183, 230)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox3.Size = New System.Drawing.Size(240, 40)
         Me.TextBox3.TabIndex = 17
         '

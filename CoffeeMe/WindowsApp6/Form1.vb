@@ -14,6 +14,7 @@ Public Class Form1
         If TextBox2.Text = "" Or TextBox1.Text = "" Then
             MessageBox.Show("กรุณากรอกข้อมูลให้ครบ")
         ElseIf rd.HasRows Then
+            Form4.Show()
             Me.Hide()
         Else
             MessageBox.Show("Username หรือ Password ไม่ถกต้อง")
@@ -25,7 +26,6 @@ Public Class Form1
             End
         End If
     End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         TextBox1.Text = ""
         TextBox2.Text = ""
@@ -33,5 +33,10 @@ Public Class Form1
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         TextBox2.PasswordChar = If(CheckBox1.Checked, "", "*")
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Form2.Show()
+        Me.Hide()
     End Sub
 End Class

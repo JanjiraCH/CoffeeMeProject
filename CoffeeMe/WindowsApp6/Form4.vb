@@ -281,7 +281,7 @@
         If CheckBox47.Checked = True Then
             gg = 0
         End If
-        TextBox6.Text = a + b + c + d + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x
+        TextBox6.Text = a + b + c + d + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + aa + bb + cc + dd + ff + gg
 
         '----------------ส่วนลด------------------'
         If (RadioButton1.Checked = True) Then

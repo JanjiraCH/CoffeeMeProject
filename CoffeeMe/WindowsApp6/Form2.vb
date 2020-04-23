@@ -18,7 +18,7 @@ Public Class Form2
             MessageBox.Show("กรุณากรอกข้อมูลให้ครบ")
         Else
             MessageBox.Show("Sign Up สำเร็จ")
-
+            Form3.Show()
             Me.Hide()
         End If
 
