@@ -1,0 +1,206 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CoffeMe
+</name>
+</assembly>
+<members>
+<member name="T:CoffeMe.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._1428461150">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._1434036150_3SnowfallH_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._14959092_10210309123663057_1482564940_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._21579690">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._39094329">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._4211">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._48392662_1253508584800506_7323506048176750592_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._48404882_362422134321481_4794006980710629376_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._49345171_403640063713116_9166957323594235904_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._5305_jpg_wh860">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._59388912_414358452748621_3813153943429578752_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._61662137_1038056829720927_2438163959396696064_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._61782244_643061739540071_3860181924060332032_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._66648602_515787475660731_8916015492729143296_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._69333457_490877151705239_407302310004260864_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._7363_jpg_wh860">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._76720892_466184364005663_3887058519433674752_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._78608230_479335216030345_5030479229964255232_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._80560929_1306894959513806_8197780777677619200_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._80560929_1306894959513806_8197780777677619200_n1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._84326860_890842768036438_1275649937392009216_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._90473244_497216537848075_698676636576382976_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._92794928_231769301363911_201995722134913024_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._92874468_1143954859302529_4816897464181194752_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._92967667_246007513208910_2862251925011693568_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._93421099_885293235277298_8944256530492948480_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources._93802842_703591117125897_4172449539950641152_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.Bingsu_โครตสวย_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.Bingsu_โครตสวย_9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.menu_๒๐๐๔๑๗_0030">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.menu_๒๐๐๔๑๗_0035">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.menu_๒๐๐๔๑๗_0036">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.menu_๒๐๐๔๑๗_0041">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.menu_๒๐๐๔๑๗_0042">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.Thai_tea_bingsu_604x270">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:CoffeMe.My.Resources.Resources.U_inspire_me_71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

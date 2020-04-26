@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CDD9944-EEB6-48E9-ACEB-22EB3BD28642}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CoffeMe.My.MyApplication</StartupObject>
+    <RootNamespace>CoffeMe</RootNamespace>
+    <AssemblyName>CoffeMe</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CoffeMe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CoffeMe.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="Module3.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61662137_1038056829720927_2438163959396696064_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59388912_414358452748621_3813153943429578752_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48404882_362422134321481_4794006980710629376_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\92967667_246007513208910_2862251925011693568_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66648602_515787475660731_8916015492729143296_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90473244_497216537848075_698676636576382976_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1428461150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48392662_1253508584800506_7323506048176750592_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49345171_403640063713116_9166957323594235904_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78608230_479335216030345_5030479229964255232_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61782244_643061739540071_3860181924060332032_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\69333457_490877151705239_407302310004260864_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\92794928_231769301363911_201995722134913024_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\92874468_1143954859302529_4816897464181194752_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80560929_1306894959513806_8197780777677619200_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80560929_1306894959513806_8197780777677619200_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76720892_466184364005663_3887058519433674752_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\84326860_890842768036438_1275649937392009216_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93802842_703591117125897_4172449539950641152_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93421099_885293235277298_8944256530492948480_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7363.jpg_wh860.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39094329.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21579690.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5305.jpg_wh860.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bingsu-โครตสวย_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bingsu-โครตสวย_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1434036150-3SnowfallH-o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thai-tea-bingsu-604x270.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14959092_10210309123663057_1482564940_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\U inspire me_71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_๒๐๐๔๑๗_0042.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_๒๐๐๔๑๗_0036.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_๒๐๐๔๑๗_0041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_๒๐๐๔๑๗_0030.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_๒๐๐๔๑๗_0035.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

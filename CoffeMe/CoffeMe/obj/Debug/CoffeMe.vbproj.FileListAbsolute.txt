@@ -1,0 +1,14 @@
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\bin\Debug\CoffeMe.exe.config
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\bin\Debug\CoffeMe.exe
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\bin\Debug\CoffeMe.pdb
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\bin\Debug\CoffeMe.xml
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.vbprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.Form1.resources
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.Form2.resources
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.Form3.resources
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.Form4.resources
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.Resources.resources
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.vbproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.exe
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.xml
+C:\Users\ASUS\source\repos\CoffeMe\CoffeMe\obj\Debug\CoffeMe.pdb
